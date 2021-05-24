@@ -1,0 +1,56 @@
+body {
+  background-color: #111827;
+}
+
+.game-info {
+  width: 99.9999999%;
+  background-color: rgba(0, 0, 0, 0.85);
+}
+
+.banner {
+  background-color: gray;
+}
+
+@media (min-width: 1280px) {
+  .sidebar {
+    width: 252px;
+  }
+  .nav {
+    width: 77.5%;
+  }
+  /* navEnd */
+  .banner {
+    width: 76.6%;
+    margin-left: 18rem;
+  }
+  .banner .big-banner img {
+    width: 56.75rem;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1280px) {
+  .nav {
+    width: 86.5%;
+  }
+  /* navEnd */
+  .banner {
+    width: 86.5%;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .nav {
+    width: 86.5%;
+  }
+  /* navEnd */
+  .banner {
+    width: 86.5%;
+  }
+}
+@media (min-width: 640px) and (max-width: 768px) {
+  .nav {
+    width: 86.5%;
+  }
+  /* navEnd */
+  .banner {
+    width: 86.5%;
+  }
+}
